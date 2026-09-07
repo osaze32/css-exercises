@@ -1,6 +1,19 @@
 .header  {
+  display: flex;
   font-family: monospace;
   background: papayawhip;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 1 0;
+}
+
+.left-links {
+  margin: -30px;
+}
+
+li {
+  float: left;
+  margin: 15px;
 }
 
 .logo {
